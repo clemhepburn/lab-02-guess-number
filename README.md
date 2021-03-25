@@ -7,3 +7,16 @@
 5) Is there some state we need to initialize?
 6) Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events.
 7) Think about how to validate each of your steps
+
+## HTML 
+- A div to explain the rules
+- An input (number)
+    - getElementById
+- A button 
+    - addEventListener
+- display of guesses remaining
+    - textContent
+- too high/too low
+    - textContent
+- lose/win result
+    - textContent
