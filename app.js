@@ -18,6 +18,7 @@ button.addEventListener('click', () => {
         winLose.textContent = 'That guess is too low! You have ' + guesses + ' guesses left!'; 
     } 
     else if (compareNumbers(guessInput.value, correctNumber) === 'equal') {
+        button.removeEventListener;
         winLose.textContent = 'You got it!';
     }
     else if (guesses <= 0) {
