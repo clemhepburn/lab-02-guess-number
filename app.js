@@ -5,3 +5,7 @@ const guessInput = document.getElementById('guess-input');
 
 let guesses = 5;
 let correctNumber = Math.ceil(Math.random() * 10);
+
+button.addEventListener('click', () => {
+    guesses--;
+    console.log(compareNumbers(guessInput.value, correctNumber));
